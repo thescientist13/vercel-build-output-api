@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/product/1",
-      "dest": "/product/[id].func"
+      "dest": "/functions/product/[id].func"
     }
   ]
 }

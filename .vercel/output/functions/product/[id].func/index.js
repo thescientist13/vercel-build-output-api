@@ -11,6 +11,7 @@ export default async function handler (request, response) {
       </head>
       <body>
         <h1>Hello from Product Details Page</h1>
+        <span>TODO: show id</span>
       </body>
     </html>  
   `);
