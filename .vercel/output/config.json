@@ -2,8 +2,8 @@
   "version": 3,
   "routes": [
     {
-      "src": "^/product/(?<id>[^/]+)/?$",
-      "dest": "functions/product/[id].func"
+      "src": "/product/(?<id>[^/]+)",
+      "dest": "/product/$id"
     }
   ]
 }
