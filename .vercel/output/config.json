@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/product/(?<id>[^/]+)",
-      "dest": "/product/$id"
+      "dest": "/product/[id]"
     }
   ]
 }
