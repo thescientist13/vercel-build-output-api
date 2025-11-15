@@ -10,8 +10,7 @@ export default async function handler (request, response) {
         <title>Vercel Build Output API demo</title>
       </head>
       <body>
-        <h1>Hello from Products Page</h1>
-        <a href="/product/1">Product 1</a>
+        <h1>Hello from Product Details Page</h1>
       </body>
     </html>  
   `);

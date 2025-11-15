@@ -1,1 +1,9 @@
-{"version":3,"routes":[{"src":"/api/webhook/(?<type>[^/]+)","dest":"./functions/api/webhook/[type].func"}]}
+{
+  "version": 3,
+  "routes": [
+    {
+      "src": "/product/1",
+      "dest": "/product/[id].func"
+    }
+  ]
+}
