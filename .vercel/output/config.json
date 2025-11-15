@@ -2,7 +2,7 @@
   "version": 3,
   "routes": [
     {
-      "src": "/product/1",
+      "src": "/product/(.*)",
       "dest": "/functions/product/[id].func"
     }
   ]
